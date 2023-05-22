@@ -14,3 +14,8 @@ which is like a priority queue. a stack can push or pop a function
 if the function is too large. it takes up too much memory 
 because the call stack takes up memory. A way to prevent this
 is by using a tail recursion**/
+
+// TAIL RECURSION 
+/** is a type of recursion function that is called at the end of the a function 
+better for memory and sometimes faster than 
+normal recursions **/
