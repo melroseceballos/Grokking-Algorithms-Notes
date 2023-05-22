@@ -27,9 +27,12 @@ SelectionSort = (arr) => {
 SelectionSort = (arr) => {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
+    // keeps track of the index of the current
+    // minimum element
     let minIndex = i;
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] < arr[minIndex]) {
+        // swaps them if the next number is lesser
         minIndex = j;
       }
     }
