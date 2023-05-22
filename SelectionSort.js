@@ -1,2 +1,43 @@
 /** Selection Sort **/
 
+// basically sorts through an unsorted array or list
+// and sorts it. 
+
+SelectionSort = (arr) => {
+     let newArr = []
+    for(i=0; i<arr.length; i++){
+        let left = arr[i]
+        for(j = i + 1; j<arr.length; j++){
+        let right = arr[j]
+        if(left <= right){
+        left = left.append(newArr)
+        left++
+        }else if(left >= right){
+        right = right.append(newArr)
+        right++
+        }
+        return newArr
+        }
+        return false
+}
+
+// this is the correct one
+// compare contrast it from your solution
+SelectionSort = (arr) => {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    let minIndex = i;
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[j] < arr[minIndex]) {
+        minIndex = j;
+      }
+    }
+    if (minIndex !== i) {
+      [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]]; // Swap the elements
+    }
+    newArr.push(arr[i]); // Add the current smallest element to newArr
+  }
+  return newArr;
+}
+
+console.log(SelectionSort([2, 5, 1, 4, 3]));
