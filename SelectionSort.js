@@ -11,11 +11,10 @@ SelectionSort = (arr) => {
         for(j = i + 1; j<arr.length; j++){
         let right = arr[j]
         if(left <= right){
-        left = left.append(newArr)
+        newArr.push(left)
         left++
         }else if(left >= right){
-        right = right.append(newArr)
-        right++
+        newArr.push(right)
         }
         return newArr
         }
