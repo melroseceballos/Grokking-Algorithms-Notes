@@ -3,6 +3,7 @@
 // basically sorts through an unsorted array or list
 // and sorts it. 
 
+// MY SOLUTION:
 SelectionSort = (arr) => {
      let newArr = []
     for(i=0; i<arr.length; i++){
@@ -21,7 +22,7 @@ SelectionSort = (arr) => {
         return false
 }
 
-// this is the correct one
+// CORRECT SOLUTION
 // compare contrast it from your solution
 SelectionSort = (arr) => {
   let newArr = [];
