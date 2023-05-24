@@ -10,6 +10,9 @@ than the pivot
 - combine and done
 **/
 
+
+// BIG O : Time = O(log n^2)
+        // Space = O(log n)
 const quickSort = (arr) => {
   if (arr.length < 2) return arr; // Base case: an array with 0 or 1 element is already sorted
   const pivot = arr[0]; // Choosing the first element as the pivot
