@@ -14,6 +14,8 @@
 /** PREVENTING COLLISIONS
 - happens when data are stored in the same place
 - instead, create a subarray/linkedlist inside that block 
-
+- that way when that block is reached, instead of getting
+- the overwritten value, you can loop through
+- the subarray to get the value 
 
 */
