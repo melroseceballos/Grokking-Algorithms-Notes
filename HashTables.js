@@ -11,4 +11,9 @@
 // caching is when the data is saved in storage
 // so that users don't need to constantly request to servers
 
-// PREVENTING COLLISIONS
+/** PREVENTING COLLISIONS
+- happens when data are stored in the same place
+- instead, create a subarray/linkedlist inside that block 
+
+
+*/
