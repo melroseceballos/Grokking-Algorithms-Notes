@@ -10,3 +10,5 @@
 // CACHE:
 // caching is when the data is saved in storage
 // so that users don't need to constantly request to servers
+
+// PREVENTING COLLISIONS
