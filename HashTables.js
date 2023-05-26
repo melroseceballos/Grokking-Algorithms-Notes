@@ -6,3 +6,7 @@
 
 - you now have a hash table! A hash function and array together!
 */
+
+// CACHE:
+// caching is when the data is saved in storage
+// so that users don't need to constantly request to servers
