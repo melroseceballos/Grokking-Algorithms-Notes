@@ -5,5 +5,7 @@
 
 
 BFS starts from the bottom to top searching
+
+*see BFS pseudo in algo notes*
 **/
 
