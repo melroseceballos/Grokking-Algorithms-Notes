@@ -5,6 +5,7 @@
 
 
 BFS starts from the bottom to top searching
+Finds the shortest path to the search 
 
 *see BFS pseudo in algo notes*
 **/
